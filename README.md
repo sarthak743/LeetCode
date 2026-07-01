@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/sarthak743/LeetCode/tree/master/0001-two-sum) |
+| [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/sarthak743/LeetCode/tree/master/1347-minimum-number-of-steps-to-make-two-strings-anagram) |
 ## Two Pointers
 |  |
 | ------- |
@@ -20,4 +21,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/sarthak743/LeetCode/tree/master/0011-container-with-most-water) |
+## String
+|  |
+| ------- |
+| [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/sarthak743/LeetCode/tree/master/1347-minimum-number-of-steps-to-make-two-strings-anagram) |
+## Counting
+|  |
+| ------- |
+| [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/sarthak743/LeetCode/tree/master/1347-minimum-number-of-steps-to-make-two-strings-anagram) |
 <!---LeetCode Topics End-->
