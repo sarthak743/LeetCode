@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/sarthak743/LeetCode/tree/master/0011-container-with-most-water) |
 | [0922-sort-array-by-parity-ii](https://github.com/sarthak743/LeetCode/tree/master/0922-sort-array-by-parity-ii) |
 | [1480-running-sum-of-1d-array](https://github.com/sarthak743/LeetCode/tree/master/1480-running-sum-of-1d-array) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/sarthak743/LeetCode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2433-find-the-original-array-of-prefix-xor](https://github.com/sarthak743/LeetCode/tree/master/2433-find-the-original-array-of-prefix-xor) |
 ## Hash Table
 |  |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/sarthak743/LeetCode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/sarthak743/LeetCode/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/sarthak743/LeetCode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 ## Bit Manipulation
@@ -53,5 +55,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/sarthak743/LeetCode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/sarthak743/LeetCode/tree/master/3658-gcd-of-odd-and-even-sums) |
 <!---LeetCode Topics End-->
