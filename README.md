@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/sarthak743/LeetCode/tree/master/0067-add-binary) |
 | [0171-excel-sheet-column-number](https://github.com/sarthak743/LeetCode/tree/master/0171-excel-sheet-column-number) |
 | [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/sarthak743/LeetCode/tree/master/1347-minimum-number-of-steps-to-make-two-strings-anagram) |
 ## Counting
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/sarthak743/LeetCode/tree/master/0067-add-binary) |
 | [0171-excel-sheet-column-number](https://github.com/sarthak743/LeetCode/tree/master/0171-excel-sheet-column-number) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/sarthak743/LeetCode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/sarthak743/LeetCode/tree/master/3658-gcd-of-odd-and-even-sums) |
@@ -58,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/sarthak743/LeetCode/tree/master/0067-add-binary) |
 | [2433-find-the-original-array-of-prefix-xor](https://github.com/sarthak743/LeetCode/tree/master/2433-find-the-original-array-of-prefix-xor) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/sarthak743/LeetCode/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 ## Number Theory
@@ -65,4 +68,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/sarthak743/LeetCode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/sarthak743/LeetCode/tree/master/3658-gcd-of-odd-and-even-sums) |
+## Simulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/sarthak743/LeetCode/tree/master/0067-add-binary) |
 <!---LeetCode Topics End-->
