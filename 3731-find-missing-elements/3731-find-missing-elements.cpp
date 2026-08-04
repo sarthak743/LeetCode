@@ -1,17 +1,19 @@
+//better approach
+//TC - O(NlogN + (maxi - mini + 1))
+//SC - O(maxi - mini - 1)   --> taken by result vector
+
 class Solution {
 public:
     vector<int> findMissingElements(vector<int>& nums) {
         sort(nums.begin(), nums.end());
 
-        int n = nums.size();
-        int mini = nums[0], maxi = nums[n - 1];
-        vector<int> mpp(maxi + 1, 0);       //array with maxi number of zeroes
-        vector<int> result;         //empty array 
+        int mini = nums[0], maxi = nums[nums.size() - 1];
+        vector<int> result;
 
-        for(int i = 0; i < n; i++)      mpp[nums[i]]++;
-
+        int j = 0;
         for(int i = mini; i <= maxi; i++){
-            if(!mpp[i]) result.push_back(i);        //append if element dont exist in nums
+            if(i != nums[j])    result.push_back(i);
+            else    j++;
         }
 
         return result;
