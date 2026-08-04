@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/sarthak743/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/sarthak743/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/sarthak743/LeetCode/tree/master/0162-find-peak-element) |
+| [0410-split-array-largest-sum](https://github.com/sarthak743/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/sarthak743/LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/sarthak743/LeetCode/tree/master/0704-binary-search) |
 | [0877-stone-game](https://github.com/sarthak743/LeetCode/tree/master/0877-stone-game) |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/sarthak743/LeetCode/tree/master/0011-container-with-most-water) |
+| [0410-split-array-largest-sum](https://github.com/sarthak743/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [1323-maximum-69-number](https://github.com/sarthak743/LeetCode/tree/master/1323-maximum-69-number) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/sarthak743/LeetCode/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/sarthak743/LeetCode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
@@ -73,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0410-split-array-largest-sum](https://github.com/sarthak743/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [1480-running-sum-of-1d-array](https://github.com/sarthak743/LeetCode/tree/master/1480-running-sum-of-1d-array) |
 ## Math
 |  |
@@ -105,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0152-maximum-product-subarray](https://github.com/sarthak743/LeetCode/tree/master/0152-maximum-product-subarray) |
+| [0410-split-array-largest-sum](https://github.com/sarthak743/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0877-stone-game](https://github.com/sarthak743/LeetCode/tree/master/0877-stone-game) |
 ## Binary Search
 |  |
@@ -114,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/sarthak743/LeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/sarthak743/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/sarthak743/LeetCode/tree/master/0162-find-peak-element) |
+| [0410-split-array-largest-sum](https://github.com/sarthak743/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/sarthak743/LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/sarthak743/LeetCode/tree/master/0704-binary-search) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/sarthak743/LeetCode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
