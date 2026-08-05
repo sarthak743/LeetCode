@@ -1,42 +1,44 @@
-//same as BOOK ALLOCATION
+//cleaned code by gpt
 
 class Solution {
 public:
-    //helper function
-    //this will tell for a given "a" max allowed is possible or not
-    bool isPossible(int a, vector<int>& arr, int b){
-        int k = 0;
-        int cnt = 0;
+    // Returns true if we can split the array into at most
+    // 'maxSubarrays' subarrays such that each subarray sum
+    // does not exceed 'maxAllowedSum'.
+    bool isPossible(int maxAllowedSum, vector<int>& nums, int maxSubarrays) {
+        int currentSum = 0;
+        int subarrayCount = 1;     // first subarray
 
-        for(int i = 0; i < arr.size(); i++){
-            cnt += arr[i];
-            if(cnt > a){
-                k++;
-                cnt = arr[i];
+        for (int num : nums) {
+            currentSum += num;
+
+            // Need to start a new subarray
+            if (currentSum > maxAllowedSum) {
+                subarrayCount++;
+                currentSum = num;
             }
         }
 
-        //since at end cnt has non zero value
-        //thus we will increment k by 1
-        k++;     
-
-        //if number of splits is lesser than equal to given k then its possible for this "a"
-        return k <= b;
+        return subarrayCount <= maxSubarrays;
     }
 
     int splitArray(vector<int>& nums, int k) {
-        int low = *max_element(nums.begin(), nums.end());       //low will have largest element
-        int high = accumulate(nums.begin(), nums.end(), 0);     //high will have sum of array
+        // Minimum possible answer is the largest element.
+        int low = *max_element(nums.begin(), nums.end());
 
-        //used binary search to optimize
-        while(low <= high){
-            int mid = (low + high) / 2;
+        // Maximum possible answer is the sum of all elements.
+        int high = accumulate(nums.begin(), nums.end(), 0);
 
-            if(isPossible(mid, nums, k))    high = mid - 1;
-            else low = mid + 1;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+
+            if (isPossible(mid, nums, k))
+                high = mid - 1;
+            else
+                low = mid + 1;
         }
 
-        //asnwer will be at low 
+        // First feasible answer.
         return low;
     }
 };
