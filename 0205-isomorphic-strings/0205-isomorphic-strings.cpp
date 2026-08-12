@@ -18,7 +18,7 @@ public:
         unordered_map<char, int> mpp2;
 
         // Start from 1 because 0 means the character hasn't been seen.
-        int idx = 1;
+        int idx1 = 1, idx2 = 1;
 
         // These store the patterns generated for both strings.
         string a = "", b = "";
@@ -28,26 +28,21 @@ public:
 
             // New character -> give it a new ID.
             if(mpp1.find(s[i]) == mpp1.end()) {
-                a += idx;
-                mpp1[s[i]] = idx;
-                idx++;
+                a += idx1;
+                mpp1[s[i]] = idx1;
+                idx1++;
             }
             // Existing character -> reuse its previous ID.
             else
                 a += mpp1[s[i]];
-        }
 
-        // IDs start from 1 again for t.
-        idx = 1;
-
-        // Build the pattern for t in the same way.
-        for(int i = 0; i < s.size(); i++) {
-
+            // Build the pattern for t in the same way.
             if(mpp2.find(t[i]) == mpp2.end()) {
-                b += idx;
-                mpp2[t[i]] = idx;
-                idx++;
+            b += idx2;
+            mpp2[t[i]] = idx2;
+            idx2++;
             }
+            
             else
                 b += mpp2[t[i]];
         }
