@@ -1,19 +1,12 @@
-//cleaner hash method
+//sort them 
+//if equal then yes
 
 class Solution {
 public:
     bool isAnagram(string s, string t) {
-        vector<int> mpp1(256, 0);
-        vector<int> mpp2(256, 0);
+        sort(s.begin(), s.end());
+        sort(t.begin(), t.end());
 
-        if(s.size() != t.size())    return false;
-
-        for(int i = 0; i < s.size(); i++){
-            mpp1[s[i]]++;
-            mpp2[t[i]]++;
-        }       
-
-        //return true if both hash table are equal
-        return mpp1 == mpp2;
+        return s == t;
     }
 };
