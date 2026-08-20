@@ -1,6 +1,8 @@
-//brute force
-//tc = O(2 * n)
-//sc = O(2 * n )
+//bit optimal
+//tc - O(n + arr2.size)
+//sc - O(n + arr2.size)
+
+
 class Solution {
 public:
     vector<int> resultArray(vector<int>& nums) {
@@ -17,10 +19,8 @@ public:
                 arr2.push_back(nums[i]);
         }        
 
-        vector<int> result;
-        for(int i = 0; i < arr1.size(); i++)    result.push_back(arr1[i]);
-        for(int i = 0; i < arr2.size(); i++)    result.push_back(arr2[i]);
+        for(int i = 0; i < arr2.size(); i++)    arr1.push_back(arr2[i]);
 
-        return result;
+        return arr1;
     }
 };
