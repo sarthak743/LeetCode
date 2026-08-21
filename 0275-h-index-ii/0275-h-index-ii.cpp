@@ -1,21 +1,29 @@
-//brute
-//iterate from back
-//if value (no of citations) are lesser than counter 
-//then stop and return
+//binary
+//at each point check if it satisfies condition
+//if yes then update result and high
+//else update low
 
 class Solution {
 public:
     int hIndex(vector<int>& citations) {
         int n = citations.size();
-        int count = 0;
+        int low = 0, high = n - 1;
+        int result = 0;
 
-        for(int i = n - 1; i >= 0; i--){
-            if(citations[i] <= count)
-                break;
-            else 
-                count++;
+        while(low <= high){
+            int mid = (low + high) / 2;
+
+            if(citations[mid] >= n - mid){
+                high = mid - 1;
+
+                //since we have to return no of such paper
+                //and not index
+                result = n - mid;
+            }
+
+            else low = mid + 1;
         }
 
-        return count;
+        return result;
     }
 };
