@@ -9,27 +9,25 @@
  * };
  */
 
-//brute force
-//put all values in stack
-//then iterate list again 
-//and replace the values with top()
+//OPTIMAL
+//ITERATIVE
+
+//3 pointers
+
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        stack<int> st;
-        ListNode* temp = head;
+        ListNode* temp = head;      //curr
+        ListNode* prev = nullptr;   //prev
+        ListNode* front = nullptr;  //front
+
         while(temp){
-            st.push(temp->val);
-            temp = temp->next;
+            front = temp->next;     //keep front ahead of curr
+            temp->next = prev;      //make curr point to prev
+            prev = temp;            //move prev ahead
+            temp = front;           //move temp ahead too
         }
 
-        ListNode* temp1 = head;
-        while(temp1){
-            temp1->val = st.top();
-            st.pop();
-            temp1 = temp1->next;
-        }
-
-        return head;
+        return prev;        //new head will be at end which is prev
     }
 };
