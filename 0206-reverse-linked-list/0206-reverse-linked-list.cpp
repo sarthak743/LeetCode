@@ -9,24 +9,27 @@
  * };
  */
 
- //stoled the solution from Youtube
- //Neso Academy
+//brute force
+//put all values in stack
+//then iterate list again 
+//and replace the values with top()
 class Solution {
 public:
-    ListNode* reverseList(ListNode* head) 
-    {
-        if(!head || head->next == nullptr) return head;  
+    ListNode* reverseList(ListNode* head) {
+        stack<int> st;
+        ListNode* temp = head;
+        while(temp){
+            st.push(temp->val);
+            temp = temp->next;
+        }
 
-        ListNode* prev = NULL;
-        ListNode* link = NULL;
-        while(head != NULL)
-        {
-            link = head->next;
-            head->next = prev;
-            prev = head;
-            head = link; 
-        }      
-        head = prev;
+        ListNode* temp1 = head;
+        while(temp1){
+            temp1->val = st.top();
+            st.pop();
+            temp1 = temp1->next;
+        }
+
         return head;
     }
 };
