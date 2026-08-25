@@ -7,23 +7,33 @@
  * };
  */
 
-//BRUTE
-//hashing
-//key will be Node*
-//iterate whole list if we find same node again they return it
+//first iterate both till they meet each other
+//put slow at head
+//after wards move both by 1
+//return the slow where they meet again
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
-        map<ListNode* , int> mpp;
-        ListNode* temp = head;
+        ListNode* slow = head;
+        ListNode* fast = head;
 
-        while(temp){
-            if(mpp[temp] == 1)
-                return temp;
-            mpp[temp]++;
-            temp = temp->next;
-        }
+        while(fast && fast->next){
+            slow = slow->next;
+            fast = fast->next->next;
 
+            if(fast == slow){
+                //move slow to starting point
+                //which is at head
+                slow = head;
+                while(slow != fast){
+                    slow = slow->next;
+                    fast = fast->next;
+                }          
+
+                return slow;      
+            }
+        } 
+            
         return NULL;
     }
 };
