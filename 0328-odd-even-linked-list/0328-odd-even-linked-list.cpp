@@ -9,46 +9,36 @@
  * };
  */
 
-//BRUTE FORCE
-//append odd values then even values in array
-//iterate array and reassign the values with array values
+//OPTIMAL 
+//link odd placed nodes tgt
+//link even placed nodes tgt
+//lastly link end of odd with start of even
 
 class Solution {
 public:
     ListNode* oddEvenList(ListNode* head) {
         if(!head || !head->next)
             return head;
-            
-        vector<int> arr;
 
-        //append odd places nodes
-        ListNode* temp = head;
-        while(temp && temp->next){
-            arr.push_back(temp->val);
-            temp = temp->next->next;
+        ListNode* odd = head;
+        ListNode* even = head->next;
+        ListNode* evenHead = head->next;
+        
+        //since odd follows even
+        //we only put condition of even 
+        while(even && even->next){
+            //link odd with odd 
+            odd->next = odd->next->next;
+            //link even with even
+            even->next = even->next->next;
+
+            //move both pointers ahead
+            odd = odd->next;
+            even = even->next;
         }
 
-        //for last node if its remaining
-        if(temp)
-            arr.push_back(temp->val);
-
-        //append even places nodes
-        temp = head->next;
-        while(temp && temp->next){
-            arr.push_back(temp->val);
-            temp = temp->next->next;
-        }
-
-        //for last node if its remaining
-        if(temp)
-            arr.push_back(temp->val);
-
-        //final iteration
-        temp = head;
-        for(int i = 0; i < arr.size(); i++){
-            temp->val = arr[i];
-            temp = temp->next;
-        }
+        //last operation
+        odd->next = evenHead;
 
         return head;
     }
