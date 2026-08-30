@@ -5,7 +5,7 @@ public:
         map<int, int> mpp;
 
         while(r < nums.size()){
-            if(mpp[nums[r]] > 0)
+            if(mpp.find(nums[r]) != mpp.end())
                 return true;
 
             mpp[nums[r]]++;
