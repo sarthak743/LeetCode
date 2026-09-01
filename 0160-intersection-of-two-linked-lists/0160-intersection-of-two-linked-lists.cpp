@@ -30,12 +30,20 @@ public:
             t2 = t2->next;
         }
 
+        //if both r of same length
+        //while loop below doesnt run
+        //keeping both heads at same location
         d = abs(a-b);
+        
+        //if A is longer
+        //move headA
         if(a > b){
             while(d--)
                 headA = headA->next;
         }
 
+        //if B is longer
+        //move headB
         else{
             while(d--)
                 headB = headB->next;
