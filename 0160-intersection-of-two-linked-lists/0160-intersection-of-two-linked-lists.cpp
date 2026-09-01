@@ -7,26 +7,47 @@
  * };
  */
 
-//BRUTE
-//get hash map keeping node as key
-//iterate B and check map at each iteration
-//return that node B if find
+//get head of longer list ahead 
+//so that both head have to 
+//travel same distance till nullptr
+//after that move both simultaneously by one 
+//if they hit then true else false
 
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-        unordered_map<ListNode*, int> mpp;
-        while(headA){
-            mpp[headA]++;
-            headA = headA->next;
+        int a = 0, b = 0, d = 0;
+        ListNode* t1 = headA;
+        ListNode* t2 = headB;
+
+        while(t1){
+            a++;
+            t1 = t1->next;
         }
 
-        while(headB){
-            if(mpp[headB] == 1)
-                return headB;
+        while(t2){
+            b++;
+            t2 = t2->next;
+        }
+
+        d = abs(a-b);
+        if(a > b){
+            while(d--)
+                headA = headA->next;
+        }
+
+        else{
+            while(d--)
+                headB = headB->next;
+        }
+        
+        while(headA && headB){
+            if(headA == headB)
+                return headA;
+            headA = headA->next;
             headB = headB->next;
         }
 
-        return NULL; 
+        return nullptr;
     }
 };
