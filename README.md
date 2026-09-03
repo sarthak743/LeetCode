@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/sarthak743/LeetCode/tree/master/0392-is-subsequence) |
 | [0475-heaters](https://github.com/sarthak743/LeetCode/tree/master/0475-heaters) |
 | [0922-sort-array-by-parity-ii](https://github.com/sarthak743/LeetCode/tree/master/0922-sort-array-by-parity-ii) |
+| [1721-swapping-nodes-in-a-linked-list](https://github.com/sarthak743/LeetCode/tree/master/1721-swapping-nodes-in-a-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/sarthak743/LeetCode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Greedy
 |  |
@@ -291,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0328-odd-even-linked-list](https://github.com/sarthak743/LeetCode/tree/master/0328-odd-even-linked-list) |
 | [0445-add-two-numbers-ii](https://github.com/sarthak743/LeetCode/tree/master/0445-add-two-numbers-ii) |
 | [1019-next-greater-node-in-linked-list](https://github.com/sarthak743/LeetCode/tree/master/1019-next-greater-node-in-linked-list) |
+| [1721-swapping-nodes-in-a-linked-list](https://github.com/sarthak743/LeetCode/tree/master/1721-swapping-nodes-in-a-linked-list) |
 | [2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/sarthak743/LeetCode/tree/master/2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/sarthak743/LeetCode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/sarthak743/LeetCode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
