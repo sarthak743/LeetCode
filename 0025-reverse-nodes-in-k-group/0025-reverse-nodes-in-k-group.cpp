@@ -58,8 +58,8 @@ public:
             //for last group 
             //if it has less than k nodes
             if(!kThNode){
-                if(prevLast)
-                    prevLast->next = temp;
+                // if(prevLast)
+                prevLast->next = temp;
                 break;
             }
 
