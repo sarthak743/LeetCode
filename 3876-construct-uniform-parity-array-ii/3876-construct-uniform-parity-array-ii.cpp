@@ -1,15 +1,19 @@
 class Solution {
 public:
     bool uniformArray(vector<int>& nums1) {
-        sort(nums1.begin(), nums1.end());
+        int odd = INT_MAX, even = INT_MAX;
+        for(int i = 0; i < nums1.size(); i++){
+            if(nums1[i] % 2 == 1 && nums1[i] < odd)
+                odd = nums1[i];
+            else if(nums1[i] % 2 == 0 && nums1[i] < even)
+                even = nums1[i];
+        }
 
-        if(nums1[0] % 2 != 0)
+        if(odd == INT_MAX || even == INT_MAX)
             return true;
-            
-        for(int i = 1; i < nums1.size(); i++)
-            if(nums1[i] % 2 != 0)  
-                return false;
         
-        return true;
+        if(odd < even)
+            return true;
+        return false;
     }
 };
