@@ -1,7 +1,5 @@
-//map worked as set
-//sliding window
-//after having 3 distinct fruits
-//move left and decrement map
+//OPTIMAL
+//expels the worst case of 2N
 
 class Solution {
 public:
@@ -14,19 +12,15 @@ public:
             mpp[fruits[r]]++;
 
             if(mpp.size() > 2){
-                while(mpp.size() > 2){
-                    mpp[fruits[l]]--;
-
-                    //js like in set we delete the key
-                    //once its value becomes 0
-                    if(mpp[fruits[l]] == 0)
-                        mpp.erase(fruits[l]);
-
-                    l++;
-                } 
+                mpp[fruits[l]]--;
+                if(mpp[fruits[l]] == 0)
+                    mpp.erase(fruits[l]);
+                l++; 
             }
 
-            res = max(res, r - l + 1);
+            //update result only if it satisfies condition
+            if(mpp.size() <= 2)
+                res = max(res, r - l + 1);
             r++;
         }
 
