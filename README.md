@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/sarthak743/LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/sarthak743/LeetCode/tree/master/0704-binary-search) |
 | [0877-stone-game](https://github.com/sarthak743/LeetCode/tree/master/0877-stone-game) |
+| [0904-fruit-into-baskets](https://github.com/sarthak743/LeetCode/tree/master/0904-fruit-into-baskets) |
 | [0922-sort-array-by-parity-ii](https://github.com/sarthak743/LeetCode/tree/master/0922-sort-array-by-parity-ii) |
 | [1004-max-consecutive-ones-iii](https://github.com/sarthak743/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/sarthak743/LeetCode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/sarthak743/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0217-contains-duplicate](https://github.com/sarthak743/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/sarthak743/LeetCode/tree/master/0242-valid-anagram) |
+| [0904-fruit-into-baskets](https://github.com/sarthak743/LeetCode/tree/master/0904-fruit-into-baskets) |
 | [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/sarthak743/LeetCode/tree/master/1347-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1512-number-of-good-pairs](https://github.com/sarthak743/LeetCode/tree/master/1512-number-of-good-pairs) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/sarthak743/LeetCode/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
@@ -281,6 +283,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/sarthak743/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0904-fruit-into-baskets](https://github.com/sarthak743/LeetCode/tree/master/0904-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/sarthak743/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/sarthak743/LeetCode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 ## Brainteaser
