@@ -1,8 +1,6 @@
-//sliding window
-//have count of zeroes in window
-//if it exceeds k
-//move left until its equal to k
-//update res at every moment
+//OPTIMAL
+//TC - O(N)
+//here we move l by one if z exceeds
 
 class Solution {
 public:
@@ -11,21 +9,17 @@ public:
         int res = 0;
 
         while(r < nums.size()){
-            if(z <= k && nums[r] == 1)
-                r++;
-
-            else if(nums[r] == 0){
+            if(nums[r] == 0)
                 z++;
-                r++;
-            }                
-
-            while(z > k){
+            
+            if(z > k){
                 if(nums[l] == 0)
                     z--;
-                l++;
-            }                
+                l++;                    
+            }
 
-            res = max(res, r - l);
+            res = max(res, r - l + 1);
+            r++;
         }
 
         return res;
