@@ -4,7 +4,12 @@
 //for every window have length and maxf 
 //if their difference exceeds k
 //move l till the diff becomes equal to k
-//update maxf everytime l moves
+
+//NO NEED to update maxf
+//since after trimming substring (moving left) maxf decreases
+//and lesser maxf wont satisfy condition
+//ts also reduces TC
+
 
 class Solution {
 public:
@@ -20,13 +25,7 @@ public:
 
             if((r - l + 1) - maxf > k){
                 hash[s[l] - 'A']--;
-                l++;
-
-                //get maxf after moving l
-                maxf = 0;
-                for(int i = 0; i <= 25; i++)
-                    maxf = max(maxf, hash[i]);
-                
+                l++;                
             }
 
             maxlen = max(maxlen, r - l + 1);            
