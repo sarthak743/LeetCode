@@ -1,10 +1,9 @@
 class Solution {
 public:
-    string reverse(string a){
-        char b = a[a.size() - 1];
-        a.pop_back();
-
-        return b + a;
+    string rotate(string a){
+        reverse(a.begin(), a.end());
+        reverse(a.begin() + 1, a.end());
+        return a;
     }
     
     int countRotations(string s, int k) {
@@ -22,7 +21,7 @@ public:
             if(res == k)
                 cnt++;
 
-            a = reverse(a);
+            a = rotate(a);
         }    
 
         return cnt;
