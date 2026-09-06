@@ -1,35 +1,39 @@
-//constant size window
-//get minimum sum of such window and subtract it from totalsum
-//return the difference
+//since the condition says so 
+//we can only pick cards from front and end
+//so make all such possible subarray get their sum and return the max one 
+
+//1 2 3 4 5 6 1
+//lsum = 1 + 2
+//rsum = 1      sum ==> 4
+
+//for max sum
+//lsum = 0
+//rsum = 5 + 6 + 1  sum ==> 12
 
 class Solution {
 public:
     int maxScore(vector<int>& cardPoints, int k) {
         int n = cardPoints.size();
-        int tsum = 0, sum = 0;
+        int l = 0, r = n;
+        int lsum = 0, rsum = 0;
         int res = 0;
-        for(int i = 0; i < n; i++)
-            tsum += cardPoints[i];
 
-        //window size
-        int len = n - k;
-        if(len == 0)
-            return tsum;
-
-        int l = 0, r = 0;
-        for(int i=1; i<len; i++){
-            sum += cardPoints[r];
-            r++;
-        }
-
-        while(r < n){
-            sum += cardPoints[r];
-            res = max(res, tsum - sum);
-            sum -= cardPoints[l];
+        for(int i=1; i <= k; i++){
+            lsum += cardPoints[l];
             l++;
-            r++;
         }
 
+        while(l >= 0){
+            res = max(res, lsum + rsum);
+
+            l--;
+            r--;
+            if(l >= 0)
+                lsum -= cardPoints[l];
+            if(r >= 0)
+                rsum += cardPoints[r];            
+        }
+        
         return res;
     }
 };
