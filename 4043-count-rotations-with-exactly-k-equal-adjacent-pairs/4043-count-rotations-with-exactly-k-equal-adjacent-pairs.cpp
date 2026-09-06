@@ -13,7 +13,8 @@ public:
         string dup = "", a = "";
         
         for(int i = 0; i < n; i++){
-            a = reverse(s);
+            if(i == 0)
+                a = reverse(s);
             if(i)
                 a = reverse(dup);
             int res = 0;
