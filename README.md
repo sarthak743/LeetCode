@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1979-find-greatest-common-divisor-of-array](https://github.com/sarthak743/LeetCode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/sarthak743/LeetCode/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/sarthak743/LeetCode/tree/master/2091-removing-minimum-and-maximum-from-array) |
+| [2302-count-subarrays-with-score-less-than-k](https://github.com/sarthak743/LeetCode/tree/master/2302-count-subarrays-with-score-less-than-k) |
 | [2433-find-the-original-array-of-prefix-xor](https://github.com/sarthak743/LeetCode/tree/master/2433-find-the-original-array-of-prefix-xor) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/sarthak743/LeetCode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2517-maximum-tastiness-of-candy-basket](https://github.com/sarthak743/LeetCode/tree/master/2517-maximum-tastiness-of-candy-basket) |
@@ -179,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/sarthak743/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/sarthak743/LeetCode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1480-running-sum-of-1d-array](https://github.com/sarthak743/LeetCode/tree/master/1480-running-sum-of-1d-array) |
+| [2302-count-subarrays-with-score-less-than-k](https://github.com/sarthak743/LeetCode/tree/master/2302-count-subarrays-with-score-less-than-k) |
 | [3903-smallest-stable-index-i](https://github.com/sarthak743/LeetCode/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/sarthak743/LeetCode/tree/master/3904-smallest-stable-index-ii) |
 ## Math
@@ -255,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1552-magnetic-force-between-two-balls](https://github.com/sarthak743/LeetCode/tree/master/1552-magnetic-force-between-two-balls) |
 | [1901-find-a-peak-element-ii](https://github.com/sarthak743/LeetCode/tree/master/1901-find-a-peak-element-ii) |
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/sarthak743/LeetCode/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
+| [2302-count-subarrays-with-score-less-than-k](https://github.com/sarthak743/LeetCode/tree/master/2302-count-subarrays-with-score-less-than-k) |
 | [2517-maximum-tastiness-of-candy-basket](https://github.com/sarthak743/LeetCode/tree/master/2517-maximum-tastiness-of-candy-basket) |
 ## Heap (Priority Queue)
 |  |
@@ -319,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/sarthak743/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/sarthak743/LeetCode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/sarthak743/LeetCode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
+| [2302-count-subarrays-with-score-less-than-k](https://github.com/sarthak743/LeetCode/tree/master/2302-count-subarrays-with-score-less-than-k) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/sarthak743/LeetCode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/sarthak743/LeetCode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 ## Brainteaser
