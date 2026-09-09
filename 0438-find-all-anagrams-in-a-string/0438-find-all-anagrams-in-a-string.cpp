@@ -5,35 +5,27 @@
 class Solution {
 public:
     vector<int> findAnagrams(string s, string p) {
-        unordered_map<char, int> mpp;
-        unordered_map<char, int> temp;
-        for(int i = 0; i < p.size(); i++)   
-            mpp[p[i]]++;
-
-        vector<int> res;
+        int k = p.size();
         int l = 0, r = 0;
-        int cnt = 0, k = p.size();
+        vector<int> res;
+        vector<int> hashs (26, 0);
+        vector<int> hashp (26, 0);
 
-        while(r < k){
-            temp[s[r]]++;
-            r++;
-        }
+        for(int i=0; i < k; i++)
+            hashp[p[i] - 'a']++;
 
-        if(temp == mpp)
-            res.push_back(l);
-        
         while(r < s.size()){
-            temp[s[r]]++;
-            temp[s[l]]--;
+            hashs[s[r] - 'a']++;
 
-            if(temp[s[l]] == 0)
-                temp.erase(s[l]);
+            if((r - l + 1) > k){
+                hashs[s[l] - 'a']--;
+                l++;
+            }
 
-            if(temp == mpp)
-                res.push_back(l+1);
+            if(hashs == hashp)
+                res.push_back(l);
 
             r++;
-            l++;
         }
 
         return res;
