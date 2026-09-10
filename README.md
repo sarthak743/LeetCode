@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/sarthak743/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/sarthak743/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0500-keyboard-row](https://github.com/sarthak743/LeetCode/tree/master/0500-keyboard-row) |
+| [0567-permutation-in-string](https://github.com/sarthak743/LeetCode/tree/master/0567-permutation-in-string) |
 | [0904-fruit-into-baskets](https://github.com/sarthak743/LeetCode/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/sarthak743/LeetCode/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/sarthak743/LeetCode/tree/master/0992-subarrays-with-k-different-integers) |
@@ -127,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/sarthak743/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0392-is-subsequence](https://github.com/sarthak743/LeetCode/tree/master/0392-is-subsequence) |
 | [0475-heaters](https://github.com/sarthak743/LeetCode/tree/master/0475-heaters) |
+| [0567-permutation-in-string](https://github.com/sarthak743/LeetCode/tree/master/0567-permutation-in-string) |
 | [0922-sort-array-by-parity-ii](https://github.com/sarthak743/LeetCode/tree/master/0922-sort-array-by-parity-ii) |
 | [1721-swapping-nodes-in-a-linked-list](https://github.com/sarthak743/LeetCode/tree/master/1721-swapping-nodes-in-a-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/sarthak743/LeetCode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
@@ -156,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/sarthak743/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/sarthak743/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0500-keyboard-row](https://github.com/sarthak743/LeetCode/tree/master/0500-keyboard-row) |
+| [0567-permutation-in-string](https://github.com/sarthak743/LeetCode/tree/master/0567-permutation-in-string) |
 | [0796-rotate-string](https://github.com/sarthak743/LeetCode/tree/master/0796-rotate-string) |
 | [1021-remove-outermost-parentheses](https://github.com/sarthak743/LeetCode/tree/master/1021-remove-outermost-parentheses) |
 | [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/sarthak743/LeetCode/tree/master/1347-minimum-number-of-steps-to-make-two-strings-anagram) |
@@ -342,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/sarthak743/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/sarthak743/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/sarthak743/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0567-permutation-in-string](https://github.com/sarthak743/LeetCode/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/sarthak743/LeetCode/tree/master/0643-maximum-average-subarray-i) |
 | [0713-subarray-product-less-than-k](https://github.com/sarthak743/LeetCode/tree/master/0713-subarray-product-less-than-k) |
 | [0904-fruit-into-baskets](https://github.com/sarthak743/LeetCode/tree/master/0904-fruit-into-baskets) |
