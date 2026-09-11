@@ -1,29 +1,25 @@
 //BETTER METHOD
 //TC - O(logn)
+//RECURSIVE
 
 class Solution {
 public:
-    double myPow(double x, int n) {
-        long long a = n;
-        if(n < 0)
-            a *= -1;
-        double res = 1;
+    double power(double x, long long p){
+        if(p == 0)  
+            return 1;
 
-        while(a > 0){
-            if(a % 2 == 0){
-                x *= x;
-                a /= 2;
-            }
-
-            else{
-                res *= x;
-                a--;
-            }
-        }
-
-        if(n < 0)
-            return 1 / res;
+        if(p % 2 == 0)
+            return power(x*x, p/2);
         
-        return res;
+        return x * power(x, p - 1);
+    }
+
+    double myPow(double x, int n) {
+        long long p = n;
+
+        if(p < 0)
+            return 1 / power(x, -p);
+
+        return power(x, p);
     }
 };
