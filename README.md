@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/sarthak743/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/sarthak743/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0275-h-index-ii](https://github.com/sarthak743/LeetCode/tree/master/0275-h-index-ii) |
+| [0303-range-sum-query-immutable](https://github.com/sarthak743/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0410-split-array-largest-sum](https://github.com/sarthak743/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0475-heaters](https://github.com/sarthak743/LeetCode/tree/master/0475-heaters) |
 | [0500-keyboard-row](https://github.com/sarthak743/LeetCode/tree/master/0500-keyboard-row) |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/sarthak743/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/sarthak743/LeetCode/tree/master/0238-product-of-array-except-self) |
+| [0303-range-sum-query-immutable](https://github.com/sarthak743/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0410-split-array-largest-sum](https://github.com/sarthak743/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0713-subarray-product-less-than-k](https://github.com/sarthak743/LeetCode/tree/master/0713-subarray-product-less-than-k) |
 | [0930-binary-subarrays-with-sum](https://github.com/sarthak743/LeetCode/tree/master/0930-binary-subarrays-with-sum) |
@@ -434,4 +436,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2261-k-divisible-elements-subarrays](https://github.com/sarthak743/LeetCode/tree/master/2261-k-divisible-elements-subarrays) |
+## Design
+|  |
+| ------- |
+| [0303-range-sum-query-immutable](https://github.com/sarthak743/LeetCode/tree/master/0303-range-sum-query-immutable) |
 <!---LeetCode Topics End-->
