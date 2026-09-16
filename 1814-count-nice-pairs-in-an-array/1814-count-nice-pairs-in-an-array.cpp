@@ -4,9 +4,15 @@ public:
     int mod = 1e9 + 7;
 
     int rev(int a){
-        string b = to_string(a);
-        reverse(b.begin(), b.end());
-        return stoi(b);
+        int b = 0;
+
+        while(a>0){
+            int l = a % 10;
+            b = b*10 + l;
+            a /= 10;
+        }
+
+        return b;
     }
 
     int countNicePairs(vector<int>& nums) {
@@ -15,9 +21,8 @@ public:
 
         for(int i=0; i<n; i++){
             nums[i] = (nums[i] - rev(nums[i])) % mod;
-            cnt += (mpp[nums[i]] % mod);
-            cnt %= mod;
-            (mpp[nums[i]]++) % mod;
+            cnt = (cnt + mpp[nums[i]]) % mod;
+            mpp[nums[i]]++;
         }
 
         return cnt;
