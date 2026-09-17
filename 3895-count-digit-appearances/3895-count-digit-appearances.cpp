@@ -1,14 +1,16 @@
 class Solution {
 public:
     int countDigitOccurrences(vector<int>& nums, int digit) {
-        string s = "";
-        int count = 0;
-
-        for(int i = 0; i < nums.size(); i++){
-            s = to_string(nums[i]);
-            for(int j = 0; j < s.size(); j++)   if(s[j] - '0' == digit)   count++;
+        int cnt = 0;
+        for(int i=0; i < nums.size(); i++){
+            int a = nums[i];
+            while(a>0){
+                if(a%10 == digit)
+                    cnt++;
+                a /= 10;
+            }
         }
 
-        return count;
+        return cnt;
     }
 };
