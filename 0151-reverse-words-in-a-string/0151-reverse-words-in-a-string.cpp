@@ -1,32 +1,36 @@
-//iterate from back
-//store the word (string until we get " ") in dummy
-//reverse dummy and append it to result with " "
-//lastly remove last " " from result
+//SC - O(1)
 
 class Solution {
 public:
     string reverseWords(string s) {
-        int i = s.size() - 1;
-        string result = "";
+        //remove all space from behind
+        while(s.back() == ' ')
+            s.pop_back();
 
-        while(i >= 0){
-            while(i >= 0 && s[i] == ' ')  
-            i--;
+        reverse(s.begin(), s.end());
 
-            string dummy = "";
-            while(i >= 0 && s[i] != ' '){
-                dummy += s[i];
-                i--;
-            }
+        //removes all spaces which were originally at front
+        while(s.back() == ' ')
+            s.pop_back();
+        
+        int i = 0, j = 0;
+        //i --> for end of word
+        //j --> for start of word
+        while(i < s.size()){
+            while(i < s.size() && s[i] != ' ')
+                i++;
 
-            reverse(dummy.begin(), dummy.end());
-            if(!dummy.empty()){
-                result += dummy;
-                result += " ";
-            }
+            //restores the reversed word    
+            reverse(s.begin() + j, s.begin() + i);
+            i++;
+
+            //removes all extra spaces in btwn
+            while(i < s.size() && s[i] == ' ')
+                s.erase(i, 1);
+
+            j=i;
         }
 
-        if(!result.empty())  result.pop_back();
-        return result;
+        return s;
     }
 };
