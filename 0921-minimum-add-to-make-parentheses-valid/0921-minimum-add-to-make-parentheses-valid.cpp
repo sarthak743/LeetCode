@@ -2,7 +2,7 @@ class Solution {
 public:
     int minAddToMakeValid(string s) {
         int n = s.size(), open = 0;
-        stack<int> st;
+        stack<char> st;
 
         for(int i=0; i<n; i++){
             if(s[i] == '(')
