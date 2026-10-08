@@ -1,36 +1,45 @@
 //js like optimal of part 1
 //need to handle duplicate 
 
-//as we alter given array at every step 
-//they dont remain sorted at each call
+//similar to better soln of part 1 and optimal soln of combination 2
 
-//so instead of checking adjacent we check if element exists in map or not
-//and skip likewise
+//sort array
+//get freq map to mark element as taken or not
+//to handle duplicates check adjacent elements
+//if prev is equal to current element 
+//and prev one is not used then skip
+//else take the current element and do further recursion
 
 class Solution {
 public:
-    void recursion(int i, vector<int>&arr, vector<vector<int>>&r){
-        if(i == arr.size()){
-            r.push_back(arr);
+    void recursion(vector<int>&arr, vector<vector<int>>&r, vector<int>&curr, vector<int>&f){
+        if(curr.size() == arr.size()){
+            r.push_back(curr);
             return;
         }
 
-        unordered_map<int, int> mpp;
-        for(int j=i; j<arr.size(); j++){
-            //handling duplicates
-            if(mpp[arr[j]])
+        for(int j=0; j<arr.size(); j++){
+            if(f[j])
                 continue;
-            mpp[arr[j]]++;            
-            
-            swap(arr[i], arr[j]);
-            recursion(i+1, arr, r);
-            swap(arr[i], arr[j]);            
+
+            if(j>0 && arr[j] == arr[j-1] && f[j-1] == 0)
+                continue;
+
+            curr.push_back(arr[j]);
+            f[j]++;
+            recursion(arr, r, curr, f);
+            curr.pop_back();
+            f[j]--;     
         }
     }
 
     vector<vector<int>> permuteUnique(vector<int>& nums) {
+        sort(nums.begin(), nums.end());
         vector<vector<int>> res;
-        recursion(0, nums, res);
+        vector<int> a;
+        vector<int> freq(nums.size(), 0);
+
+        recursion(nums, res, a, freq);
         return res;
     }
 };
