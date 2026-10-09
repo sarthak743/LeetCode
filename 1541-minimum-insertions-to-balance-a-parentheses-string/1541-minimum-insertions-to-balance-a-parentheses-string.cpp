@@ -28,23 +28,22 @@ public:
                 res += 'y';
         }
 
-        stack<char> st;
-        int ans = 0;
+        int open = 0, ans = 0;
         for(int i=0; i<res.size(); i++){
             if(res[i] == '(')
-                st.push(res[i]);
+                open++;
 
             else if(res[i] == 'x'){
-                if(!st.empty())
-                    st.pop();
+                if(open)
+                    open--;
 
                 else
                     ans++;
             }
 
             else{
-                if(!st.empty()){
-                    st.pop();
+                if(open){
+                    open--;
                     ans++;
                 }
 
@@ -53,6 +52,6 @@ public:
             }
         }        
 
-        return ans + st.size() * 2;
+        return ans + open * 2;
     }
 };
