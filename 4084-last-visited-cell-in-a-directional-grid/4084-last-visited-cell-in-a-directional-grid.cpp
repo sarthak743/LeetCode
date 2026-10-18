@@ -1,23 +1,25 @@
+//optimized space
+
 class Solution {
 public:
     vector<int> lastVisitedCell(vector<vector<char>>& grid) {
         int n = grid.size(), m = grid[0].size();
-        vector<vector<int>> visit (n, vector<int> (m,0));
         vector<int> ans = {-1, -1};
 
         int i = 0, j = 0;
-        while(i >= 0 && i < n && j >= 0 && j < m && !visit[i][j]){
+        while(i >= 0 && i < n && j >= 0 && j < m && grid[i][j] != '0'){
             ans = {i, j};
-            visit[i][j]++;
+            char c = grid[i][j];
+            grid[i][j] = '0';
 
-            if(grid[i][j] == 'L')
+            if(c == 'L')
                 j--;
-            else if(grid[i][j] == 'R')
+            else if(c == 'R')
                 j++;
-            else if(grid[i][j] == 'U')
+            else if(c == 'U')
                 i--;
             else
-                i++;
+                i++;            
         }
 
         return ans;
