@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/sarthak743/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/sarthak743/LeetCode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/sarthak743/LeetCode/tree/master/0047-permutations-ii) |
+| [0049-group-anagrams](https://github.com/sarthak743/LeetCode/tree/master/0049-group-anagrams) |
 | [0055-jump-game](https://github.com/sarthak743/LeetCode/tree/master/0055-jump-game) |
 | [0066-plus-one](https://github.com/sarthak743/LeetCode/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/sarthak743/LeetCode/tree/master/0073-set-matrix-zeroes) |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/sarthak743/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0012-integer-to-roman](https://github.com/sarthak743/LeetCode/tree/master/0012-integer-to-roman) |
 | [0036-valid-sudoku](https://github.com/sarthak743/LeetCode/tree/master/0036-valid-sudoku) |
+| [0049-group-anagrams](https://github.com/sarthak743/LeetCode/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/sarthak743/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/sarthak743/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0141-linked-list-cycle](https://github.com/sarthak743/LeetCode/tree/master/0141-linked-list-cycle) |
@@ -200,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/sarthak743/LeetCode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/sarthak743/LeetCode/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/sarthak743/LeetCode/tree/master/0032-longest-valid-parentheses) |
+| [0049-group-anagrams](https://github.com/sarthak743/LeetCode/tree/master/0049-group-anagrams) |
 | [0067-add-binary](https://github.com/sarthak743/LeetCode/tree/master/0067-add-binary) |
 | [0076-minimum-window-substring](https://github.com/sarthak743/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0151-reverse-words-in-a-string](https://github.com/sarthak743/LeetCode/tree/master/0151-reverse-words-in-a-string) |
@@ -247,6 +250,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/sarthak743/LeetCode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/sarthak743/LeetCode/tree/master/0016-3sum-closest) |
 | [0047-permutations-ii](https://github.com/sarthak743/LeetCode/tree/master/0047-permutations-ii) |
+| [0049-group-anagrams](https://github.com/sarthak743/LeetCode/tree/master/0049-group-anagrams) |
 | [0088-merge-sorted-array](https://github.com/sarthak743/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/sarthak743/LeetCode/tree/master/0148-sort-list) |
 | [0164-maximum-gap](https://github.com/sarthak743/LeetCode/tree/master/0164-maximum-gap) |
