@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/sarthak743/LeetCode/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/sarthak743/LeetCode/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/sarthak743/LeetCode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
+| [3364-minimum-positive-sum-subarray](https://github.com/sarthak743/LeetCode/tree/master/3364-minimum-positive-sum-subarray) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/sarthak743/LeetCode/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3483-unique-3-digit-even-numbers](https://github.com/sarthak743/LeetCode/tree/master/3483-unique-3-digit-even-numbers) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/sarthak743/LeetCode/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
@@ -301,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/sarthak743/LeetCode/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2302-count-subarrays-with-score-less-than-k](https://github.com/sarthak743/LeetCode/tree/master/2302-count-subarrays-with-score-less-than-k) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/sarthak743/LeetCode/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+| [3364-minimum-positive-sum-subarray](https://github.com/sarthak743/LeetCode/tree/master/3364-minimum-positive-sum-subarray) |
 | [3903-smallest-stable-index-i](https://github.com/sarthak743/LeetCode/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/sarthak743/LeetCode/tree/master/3904-smallest-stable-index-ii) |
 ## Math
@@ -521,6 +523,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2962-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/sarthak743/LeetCode/tree/master/2962-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/sarthak743/LeetCode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/sarthak743/LeetCode/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+| [3364-minimum-positive-sum-subarray](https://github.com/sarthak743/LeetCode/tree/master/3364-minimum-positive-sum-subarray) |
 ## Brainteaser
 |  |
 | ------- |
