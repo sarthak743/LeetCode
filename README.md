@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0475-heaters](https://github.com/sarthak743/LeetCode/tree/master/0475-heaters) |
 | [0500-keyboard-row](https://github.com/sarthak743/LeetCode/tree/master/0500-keyboard-row) |
 | [0540-single-element-in-a-sorted-array](https://github.com/sarthak743/LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
+| [0611-valid-triangle-number](https://github.com/sarthak743/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0643-maximum-average-subarray-i](https://github.com/sarthak743/LeetCode/tree/master/0643-maximum-average-subarray-i) |
 | [0704-binary-search](https://github.com/sarthak743/LeetCode/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/sarthak743/LeetCode/tree/master/0713-subarray-product-less-than-k) |
@@ -182,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/sarthak743/LeetCode/tree/master/0392-is-subsequence) |
 | [0475-heaters](https://github.com/sarthak743/LeetCode/tree/master/0475-heaters) |
 | [0567-permutation-in-string](https://github.com/sarthak743/LeetCode/tree/master/0567-permutation-in-string) |
+| [0611-valid-triangle-number](https://github.com/sarthak743/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0633-sum-of-square-numbers](https://github.com/sarthak743/LeetCode/tree/master/0633-sum-of-square-numbers) |
 | [0922-sort-array-by-parity-ii](https://github.com/sarthak743/LeetCode/tree/master/0922-sort-array-by-parity-ii) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/sarthak743/LeetCode/tree/master/1385-find-the-distance-value-between-two-arrays) |
@@ -195,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/sarthak743/LeetCode/tree/master/0011-container-with-most-water) |
 | [0055-jump-game](https://github.com/sarthak743/LeetCode/tree/master/0055-jump-game) |
 | [0410-split-array-largest-sum](https://github.com/sarthak743/LeetCode/tree/master/0410-split-array-largest-sum) |
+| [0611-valid-triangle-number](https://github.com/sarthak743/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0678-valid-parenthesis-string](https://github.com/sarthak743/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/sarthak743/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1323-maximum-69-number](https://github.com/sarthak743/LeetCode/tree/master/1323-maximum-69-number) |
@@ -275,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/sarthak743/LeetCode/tree/master/0242-valid-anagram) |
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/sarthak743/LeetCode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0475-heaters](https://github.com/sarthak743/LeetCode/tree/master/0475-heaters) |
+| [0611-valid-triangle-number](https://github.com/sarthak743/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0853-car-fleet](https://github.com/sarthak743/LeetCode/tree/master/0853-car-fleet) |
 | [0922-sort-array-by-parity-ii](https://github.com/sarthak743/LeetCode/tree/master/0922-sort-array-by-parity-ii) |
 | [1385-find-the-distance-value-between-two-arrays](https://github.com/sarthak743/LeetCode/tree/master/1385-find-the-distance-value-between-two-arrays) |
@@ -407,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/sarthak743/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0475-heaters](https://github.com/sarthak743/LeetCode/tree/master/0475-heaters) |
 | [0540-single-element-in-a-sorted-array](https://github.com/sarthak743/LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
+| [0611-valid-triangle-number](https://github.com/sarthak743/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0633-sum-of-square-numbers](https://github.com/sarthak743/LeetCode/tree/master/0633-sum-of-square-numbers) |
 | [0704-binary-search](https://github.com/sarthak743/LeetCode/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/sarthak743/LeetCode/tree/master/0713-subarray-product-less-than-k) |
