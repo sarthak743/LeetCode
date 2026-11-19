@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2433-find-the-original-array-of-prefix-xor](https://github.com/sarthak743/LeetCode/tree/master/2433-find-the-original-array-of-prefix-xor) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/sarthak743/LeetCode/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2517-maximum-tastiness-of-candy-basket](https://github.com/sarthak743/LeetCode/tree/master/2517-maximum-tastiness-of-candy-basket) |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/sarthak743/LeetCode/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/sarthak743/LeetCode/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [2778-sum-of-squares-of-special-elements](https://github.com/sarthak743/LeetCode/tree/master/2778-sum-of-squares-of-special-elements) |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/sarthak743/LeetCode/tree/master/2799-count-complete-subarrays-in-an-array) |
@@ -208,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2064-minimized-maximum-of-products-distributed-to-any-store](https://github.com/sarthak743/LeetCode/tree/master/2064-minimized-maximum-of-products-distributed-to-any-store) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/sarthak743/LeetCode/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2517-maximum-tastiness-of-candy-basket](https://github.com/sarthak743/LeetCode/tree/master/2517-maximum-tastiness-of-candy-basket) |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/sarthak743/LeetCode/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/sarthak743/LeetCode/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/sarthak743/LeetCode/tree/master/3723-maximize-sum-of-squares-of-digits) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/sarthak743/LeetCode/tree/master/3727-maximum-alternating-sum-of-squares) |
@@ -292,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2094-finding-3-digit-even-numbers](https://github.com/sarthak743/LeetCode/tree/master/2094-finding-3-digit-even-numbers) |
 | [2248-intersection-of-multiple-arrays](https://github.com/sarthak743/LeetCode/tree/master/2248-intersection-of-multiple-arrays) |
 | [2517-maximum-tastiness-of-candy-basket](https://github.com/sarthak743/LeetCode/tree/master/2517-maximum-tastiness-of-candy-basket) |
+| [2567-minimum-score-by-changing-two-elements](https://github.com/sarthak743/LeetCode/tree/master/2567-minimum-score-by-changing-two-elements) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/sarthak743/LeetCode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/sarthak743/LeetCode/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3731-find-missing-elements](https://github.com/sarthak743/LeetCode/tree/master/3731-find-missing-elements) |
