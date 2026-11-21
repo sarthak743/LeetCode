@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/sarthak743/LeetCode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/sarthak743/LeetCode/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3105-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/sarthak743/LeetCode/tree/master/3105-longest-strictly-increasing-or-strictly-decreasing-subarray) |
+| [3158-find-the-xor-of-numbers-which-appear-twice](https://github.com/sarthak743/LeetCode/tree/master/3158-find-the-xor-of-numbers-which-appear-twice) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/sarthak743/LeetCode/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/sarthak743/LeetCode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
 | [3364-minimum-positive-sum-subarray](https://github.com/sarthak743/LeetCode/tree/master/3364-minimum-positive-sum-subarray) |
@@ -161,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/sarthak743/LeetCode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/sarthak743/LeetCode/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/sarthak743/LeetCode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
+| [3158-find-the-xor-of-numbers-which-appear-twice](https://github.com/sarthak743/LeetCode/tree/master/3158-find-the-xor-of-numbers-which-appear-twice) |
 | [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/sarthak743/LeetCode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/sarthak743/LeetCode/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3483-unique-3-digit-even-numbers](https://github.com/sarthak743/LeetCode/tree/master/3483-unique-3-digit-even-numbers) |
@@ -375,6 +377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2220-minimum-bit-flips-to-convert-number](https://github.com/sarthak743/LeetCode/tree/master/2220-minimum-bit-flips-to-convert-number) |
 | [2433-find-the-original-array-of-prefix-xor](https://github.com/sarthak743/LeetCode/tree/master/2433-find-the-original-array-of-prefix-xor) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/sarthak743/LeetCode/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
+| [3158-find-the-xor-of-numbers-which-appear-twice](https://github.com/sarthak743/LeetCode/tree/master/3158-find-the-xor-of-numbers-which-appear-twice) |
 | [3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/sarthak743/LeetCode/tree/master/3191-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/sarthak743/LeetCode/tree/master/3644-maximum-k-to-sort-a-permutation) |
 ## Number Theory
