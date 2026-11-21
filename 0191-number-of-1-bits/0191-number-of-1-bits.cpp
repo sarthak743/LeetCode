@@ -1,12 +1,13 @@
-//TC == O(no. of set bits)
-
+//TC == O(log(n))
+//BRUTE
 class Solution {
 public:
     int hammingWeight(int n) {
         int res = 0;
         while(n){
-            n = n & (n-1);
-            res++;
+            if(n%2)
+                res++;
+            n /= 2;
         }
 
         return res;
