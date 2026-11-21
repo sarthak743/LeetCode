@@ -366,6 +366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/sarthak743/LeetCode/tree/master/0067-add-binary) |
+| [0191-number-of-1-bits](https://github.com/sarthak743/LeetCode/tree/master/0191-number-of-1-bits) |
 | [0231-power-of-two](https://github.com/sarthak743/LeetCode/tree/master/0231-power-of-two) |
 | [2433-find-the-original-array-of-prefix-xor](https://github.com/sarthak743/LeetCode/tree/master/2433-find-the-original-array-of-prefix-xor) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/sarthak743/LeetCode/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
@@ -448,6 +449,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/sarthak743/LeetCode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0148-sort-list](https://github.com/sarthak743/LeetCode/tree/master/0148-sort-list) |
+| [0191-number-of-1-bits](https://github.com/sarthak743/LeetCode/tree/master/0191-number-of-1-bits) |
 | [0240-search-a-2d-matrix-ii](https://github.com/sarthak743/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 ## Matrix
 |  |
