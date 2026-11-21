@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/sarthak743/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/sarthak743/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/sarthak743/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0260-single-number-iii](https://github.com/sarthak743/LeetCode/tree/master/0260-single-number-iii) |
 | [0275-h-index-ii](https://github.com/sarthak743/LeetCode/tree/master/0275-h-index-ii) |
 | [0303-range-sum-query-immutable](https://github.com/sarthak743/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0410-split-array-largest-sum](https://github.com/sarthak743/LeetCode/tree/master/0410-split-array-largest-sum) |
@@ -370,6 +371,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0137-single-number-ii](https://github.com/sarthak743/LeetCode/tree/master/0137-single-number-ii) |
 | [0191-number-of-1-bits](https://github.com/sarthak743/LeetCode/tree/master/0191-number-of-1-bits) |
 | [0231-power-of-two](https://github.com/sarthak743/LeetCode/tree/master/0231-power-of-two) |
+| [0260-single-number-iii](https://github.com/sarthak743/LeetCode/tree/master/0260-single-number-iii) |
 | [2220-minimum-bit-flips-to-convert-number](https://github.com/sarthak743/LeetCode/tree/master/2220-minimum-bit-flips-to-convert-number) |
 | [2433-find-the-original-array-of-prefix-xor](https://github.com/sarthak743/LeetCode/tree/master/2433-find-the-original-array-of-prefix-xor) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/sarthak743/LeetCode/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
