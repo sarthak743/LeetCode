@@ -1,3 +1,4 @@
+//cleaner code
 class Solution {
 public:
     bool lemonadeChange(vector<int>& bills) {
@@ -7,26 +8,27 @@ public:
             if(bills[i] == 5)   
                 five++;
 
-            else{
-                if(bills[i] == 10 && five){
+            else if(bills[i] == 10){
+                if(five){
                     tens++;
                     five--;
                 }
-                    
-                else if(bills[i] == 20){
-                    if(five && tens){
-                        five--;
-                        tens--;
-                    }
-                    else if(five >= 3)
-                        five -= 3;
-                    else
-                        return false;
-                }
-                    
                 else
                     return false;
             }
+                    
+            else if(bills[i] == 20){
+                if(five && tens){
+                    five--;
+                    tens--;
+                }
+                else if(five >= 3)
+                    five -= 3;
+                else
+                    return false;
+            }
+                
+            
         }
 
         return true;
