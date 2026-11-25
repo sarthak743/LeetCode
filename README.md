@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/sarthak743/LeetCode/tree/master/0055-jump-game) |
 | [0066-plus-one](https://github.com/sarthak743/LeetCode/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/sarthak743/LeetCode/tree/master/0073-set-matrix-zeroes) |
+| [0078-subsets](https://github.com/sarthak743/LeetCode/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/sarthak743/LeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/sarthak743/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0119-pascals-triangle-ii](https://github.com/sarthak743/LeetCode/tree/master/0119-pascals-triangle-ii) |
@@ -379,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0029-divide-two-integers](https://github.com/sarthak743/LeetCode/tree/master/0029-divide-two-integers) |
 | [0067-add-binary](https://github.com/sarthak743/LeetCode/tree/master/0067-add-binary) |
+| [0078-subsets](https://github.com/sarthak743/LeetCode/tree/master/0078-subsets) |
 | [0137-single-number-ii](https://github.com/sarthak743/LeetCode/tree/master/0137-single-number-ii) |
 | [0191-number-of-1-bits](https://github.com/sarthak743/LeetCode/tree/master/0191-number-of-1-bits) |
 | [0231-power-of-two](https://github.com/sarthak743/LeetCode/tree/master/0231-power-of-two) |
@@ -661,6 +663,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/sarthak743/LeetCode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/sarthak743/LeetCode/tree/master/0047-permutations-ii) |
 | [0077-combinations](https://github.com/sarthak743/LeetCode/tree/master/0077-combinations) |
+| [0078-subsets](https://github.com/sarthak743/LeetCode/tree/master/0078-subsets) |
 | [0301-remove-invalid-parentheses](https://github.com/sarthak743/LeetCode/tree/master/0301-remove-invalid-parentheses) |
 ## Tree
 |  |
