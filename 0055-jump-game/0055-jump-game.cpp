@@ -1,12 +1,15 @@
+//by striver
+
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
-        int goal = nums.size() - 1;
-        for(int i=nums.size()-2; i >= 0; i--){
-            if(nums[i] + i >= goal)
-                goal = i;
+        int maxInd = 0;
+        for(int i=0; i<nums.size(); i++){
+            if(i > maxInd)
+                return false;
+            maxInd = max(maxInd, i + nums[i]);
         }
 
-        return !goal;
+        return true;
     }
 };
