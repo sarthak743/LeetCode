@@ -207,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/sarthak743/LeetCode/tree/master/0055-jump-game) |
 | [0410-split-array-largest-sum](https://github.com/sarthak743/LeetCode/tree/master/0410-split-array-largest-sum) |
 | [0611-valid-triangle-number](https://github.com/sarthak743/LeetCode/tree/master/0611-valid-triangle-number) |
+| [0670-maximum-swap](https://github.com/sarthak743/LeetCode/tree/master/0670-maximum-swap) |
 | [0678-valid-parenthesis-string](https://github.com/sarthak743/LeetCode/tree/master/0678-valid-parenthesis-string) |
 | [0860-lemonade-change](https://github.com/sarthak743/LeetCode/tree/master/0860-lemonade-change) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/sarthak743/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
@@ -347,6 +348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/sarthak743/LeetCode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0509-fibonacci-number](https://github.com/sarthak743/LeetCode/tree/master/0509-fibonacci-number) |
 | [0633-sum-of-square-numbers](https://github.com/sarthak743/LeetCode/tree/master/0633-sum-of-square-numbers) |
+| [0670-maximum-swap](https://github.com/sarthak743/LeetCode/tree/master/0670-maximum-swap) |
 | [0836-rectangle-overlap](https://github.com/sarthak743/LeetCode/tree/master/0836-rectangle-overlap) |
 | [0877-stone-game](https://github.com/sarthak743/LeetCode/tree/master/0877-stone-game) |
 | [1248-count-number-of-nice-subarrays](https://github.com/sarthak743/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
